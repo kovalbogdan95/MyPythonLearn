@@ -1,10 +1,10 @@
 import sqlite3
 
 # Ordinary DB initialisation
-# textDB = sqlite3.connect("testDB.db")
+textDB = sqlite3.connect("testDB.db")
 
 # Create DB in RAM
-textDB = sqlite3.connect(":memory:")
+#textDB = sqlite3.connect(":memory:")
 
 # Cursor creation
 curs = textDB.cursor()
